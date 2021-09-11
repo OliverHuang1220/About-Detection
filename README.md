@@ -28,3 +28,13 @@ data_aug.py
 增加目标的数量；
 更新标签文件xml
 ```
+
+```
+spilt_train_val.py
+对COCO数据集进行train和val的划分
+```
+
+```
+water_test.py
+基于MMdetection工具箱的测试文件
+```
