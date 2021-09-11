@@ -11,6 +11,6 @@ crop_image
         |——1.jpg
         |——1.xml
         |——2.jpg
-        |_____2.xml
-|_____crop_image.py
+        |__2.xml
+crop_image.py
 '''
