@@ -12,3 +12,11 @@ $File_Path
 │   └── 2.xml
 └── crop_image.py
 ```
+```
+xml2coco.py
+将VOC格式数据转成COCO数据格式
+```
+```
+coco2voc.py
+将COCO格式数据转成VOC数据格式
+```
