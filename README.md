@@ -1,16 +1,14 @@
 # About-Detection
 目标检测比赛常用数据处理&amp;测试程序
-
-'''
-/************************************/
-crop_image.py裁剪出xml文件中的目标区域并保存
-/************************************/
-按照如下方式放置数据和程序文件，将图像文件与标签文件放于同一文件夹data/中.
-crop_image
-|——data
-        |——1.jpg
-        |——1.xml
-        |——2.jpg
-        |__2.xml
+```
 crop_image.py
-'''
+裁剪出xml文件中的目标区域并保存
+This directory should contain the following data:
+$File_Path
+├── data
+│   ├── 1.jpg
+│   │—— 1.xml
+│   │—— 2.jpg
+│   └── 2.xml
+└── crop_image.py
+```
