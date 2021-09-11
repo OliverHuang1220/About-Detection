@@ -16,7 +16,15 @@ $File_Path
 xml2coco.py
 将VOC格式数据转成COCO数据格式
 ```
+
 ```
 coco2voc.py
 将COCO格式数据转成VOC数据格式
+```
+
+```
+data_aug.py
+针对图片内小目标数据增强的脚本；
+增加目标的数量；
+更新标签文件xml
 ```
