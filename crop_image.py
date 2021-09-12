@@ -3,6 +3,7 @@ import glob as gb
 import os
 import shutil
 import cv2
+from tqdm import tqdm
 def save_region(img,obj,obj_area,xml_path,idx):
     image_path = xml_path[0:-4]
     if not os.path.isdir(image_path):
@@ -18,7 +19,7 @@ def crop_object_region(data_path):
     print('jpg:', len(jpg_list))
     if len(xml_path_list) != len(jpg_list):
         print('Missing xml or image file')
-    for xml_path in xml_path_list:
+    for xml_path in tqdm(xml_path_list):
         tree = ET.parse(xml_path)
         if tree.find('size'):
             size = tree.find('size')
